@@ -5,7 +5,7 @@
 
   tasks:
     - name: PAUSE
-        ansible.builtin.pause:
+      ansible.builtin.pause:
         minutes: 1
     - name: SHOW BGP ALL
       block:
