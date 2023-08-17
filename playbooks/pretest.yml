@@ -15,4 +15,4 @@
       rescue:
         - name: Crush
           ansible.builtin.fail:
-            msg: "BGP state down."
+            msg: BGP state down.
