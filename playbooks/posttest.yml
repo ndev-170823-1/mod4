@@ -19,4 +19,3 @@
         - name: Crush
           ansible.builtin.fail:
             msg: BGP state down.
-            
